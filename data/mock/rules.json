@@ -1,0 +1,37 @@
+[
+  {
+    "rule_id": "R001",
+    "rule_name": "关键物料延期高风险规则",
+    "threshold": "delay_days>=14",
+    "risk_level": "High",
+    "suggest_action": "启动备选供应商验证，并召开供应链风险协调会议"
+  },
+  {
+    "rule_id": "R002",
+    "rule_name": "关键节点延期风险规则",
+    "threshold": "milestone.delay_days>=7",
+    "risk_level": "Medium",
+    "suggest_action": "评估项目计划影响，调整关键节点安排并持续跟踪"
+  },
+  {
+    "rule_id": "R003",
+    "rule_name": "短期供应延期观察规则",
+    "threshold": "delay_days>=3 AND delay_days<14",
+    "risk_level": "Low",
+    "suggest_action": "持续跟踪供应商交付状态，确认延期是否扩大"
+  },
+  {
+    "rule_id": "R004",
+    "rule_name": "供应商产能下降风险规则",
+    "threshold": "capacity_reduction>=20%",
+    "risk_level": "High",
+    "suggest_action": "评估供应商恢复计划，并准备替代供应方案"
+  },
+  {
+    "rule_id": "R005",
+    "rule_name": "关键材料短缺风险规则",
+    "threshold": "material_inventory_shortage=true",
+    "risk_level": "High",
+    "suggest_action": "启动库存协调，并评估替代材料来源"
+  }
+]

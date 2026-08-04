@@ -1,0 +1,42 @@
+[
+  {
+    "milestone_id": "M001",
+    "project_id": "NV685",
+    "name": "芯片设计完成",
+    "planned_date": "2026-06-15",
+    "status": "completed",
+    "delay_days": 0
+  },
+  {
+    "milestone_id": "M002",
+    "project_id": "NV685",
+    "name": "晶圆制造完成",
+    "planned_date": "2026-07-20",
+    "status": "completed",
+    "delay_days": 0
+  },
+  {
+    "milestone_id": "M003",
+    "project_id": "NV685",
+    "name": "封测开始",
+    "planned_date": "2026-08-05",
+    "status": "delayed",
+    "delay_days": 15
+  },
+  {
+    "milestone_id": "M004",
+    "project_id": "NV685",
+    "name": "封测完成",
+    "planned_date": "2026-08-25",
+    "status": "delayed",
+    "delay_days": 15
+  },
+  {
+    "milestone_id": "M005",
+    "project_id": "NV685",
+    "name": "客户验证",
+    "planned_date": "2026-09-15",
+    "status": "planned",
+    "delay_days": 0
+  }
+]

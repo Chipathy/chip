@@ -1,0 +1,76 @@
+[
+  {
+    "event_id": "EV001",
+    "project_id": "NV685",
+    "milestone_id": "M004",
+    "event_type": "supplier_delay",
+    "source": "供应商交付通知",
+    "supplier": "供应商A",
+    "material": "BGA基板",
+    "material_category": "BGA",
+    "delay_days": 15,
+    "description": "BGA基板供应商通知交付延期15天。",
+    "occurred_at": "2026-08-03T09:30:00+08:00",
+    "extra_data": {}
+  },
+  {
+    "event_id": "EV002",
+    "project_id": "NV685",
+    "milestone_id": "M003",
+    "event_type": "supplier_delay",
+    "source": "供应商交付通知",
+    "supplier": "供应商B",
+    "material": "散热片",
+    "material_category": "结构件",
+    "delay_days": 5,
+    "description": "散热片供应商通知交付延期5天。",
+    "occurred_at": "2026-08-04T10:15:00+08:00",
+    "extra_data": {}
+  },
+  {
+    "event_id": "EV003",
+    "project_id": "NV685",
+    "milestone_id": "M002",
+    "event_type": "wafer_delivery_delay",
+    "source": "晶圆厂交付通知",
+    "supplier": "晶圆厂A",
+    "material": "12英寸晶圆",
+    "material_category": "晶圆",
+    "delay_days": 10,
+    "description": "晶圆厂通知本批12英寸晶圆交付延期10天。",
+    "occurred_at": "2026-08-05T14:00:00+08:00",
+    "extra_data": {}
+  },
+  {
+    "event_id": "EV004",
+    "project_id": "NV685",
+    "milestone_id": "M003",
+    "event_type": "supplier_capacity_drop",
+    "source": "供应商产能月报",
+    "supplier": "供应商C",
+    "material": "封装载板",
+    "material_category": "封装材料",
+    "delay_days": 0,
+    "description": "封装载板供应商产能较计划下降20%。",
+    "occurred_at": "2026-08-06T09:00:00+08:00",
+    "extra_data": {
+      "capacity_reduction": 20
+    }
+  },
+  {
+    "event_id": "EV005",
+    "project_id": "NV685",
+    "milestone_id": "M003",
+    "event_type": "material_shortage",
+    "source": "物料库存预警",
+    "supplier": "供应商D",
+    "material": "高导热界面材料",
+    "material_category": "关键材料",
+    "delay_days": 0,
+    "description": "高导热界面材料库存低于封测阶段安全库存。",
+    "occurred_at": "2026-08-07T08:45:00+08:00",
+    "extra_data": {
+      "material_inventory_shortage": true
+    }
+  }
+]
