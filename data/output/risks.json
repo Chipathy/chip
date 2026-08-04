@@ -1,0 +1,31 @@
+[
+  {
+    "risk_id": "RISK001",
+    "event_id": "EV001",
+    "project_id": "NV685",
+    "milestone_id": "M004",
+    "risk_type": "supplier_delay",
+    "risk_level": "High",
+    "risk_title": "BGA基板延期影响封测完成节点",
+    "risk_summary": "BGA基板供应商延期15天，可能导致封测完成节点延后。",
+    "risk_reason": "EV001显示BGA基板供应商延期15天，命中R001的关键物料延期高风险规则；CASE001表明类似的单一供应商延期超过两周会影响封测和客户验证节点。",
+    "matched_rules": [
+      "R001"
+    ],
+    "matched_cases": [
+      "CASE001"
+    ],
+    "case_match_reason": "当前事件与CASE001均涉及BGA基板、供应商交付延期、封测阶段和关键节点影响，且延期超过两周，风险模式高度相似。",
+    "impact_analysis": "可能影响封测完成节点、客户验证计划和项目最终交付时间。",
+    "recommendations": [
+      "启动第二供应商验证",
+      "协调供应商提升交付优先级",
+      "重新评估封测排期"
+    ],
+    "risk_status": "open",
+    "review_status": "pending",
+    "reviewer": "",
+    "review_comment": "",
+    "created_at": "2026-08-04T09:00:00+08:00"
+  }
+]
